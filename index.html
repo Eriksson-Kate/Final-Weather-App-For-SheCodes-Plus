@@ -4,6 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form action="search">
+          <input
+            id="enterCity"
+            type="search"
+            placeholder="Enter a City..."
+            required
+          />
+          <input id="searchButton" type="submit" value="Search" />
+        </form>
+      </header>
+      <main class="TodaysWeather">
+        <h1>Philadelphia</h1>
+        <div>
+          <ul>
+            <li>
+              <span class="DayAndTime"> Saturday 13:05, </span>
+              <span class="Conditions"> partly cloudy </span>
+            </li>
+            <li>
+              Humidity:
+              <strong> 47% </strong>
+              Wind:
+              <strong> 9 mph</strong>
+            </li>
+          </ul>
+        </div>
+        <div class="TodaysTemp">
+          <span class="TodayImg">🌤️</span>
+          <span class="Temp">95</span>
+          <span class="Unit">°F</span>
+        </div>
+      </main>
+      <footer>
+        Coded by <a href="https://github.com/Eriksson-Kate"> Kate Eriksson</a>,
+        open-sourced on
+        <a
+          href="https://github.com/Eriksson-Kate/Final-Weather-App-For-SheCodes-Plus"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://weather-app-by-kate.netlify.app/">Netlfiy</a>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,23 @@
+body {
+  background: #f2f9f1;
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+.weather-app {
+  background: #b6cdbd;
+  max-width: 700px;
+  margin: 35px auto;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
