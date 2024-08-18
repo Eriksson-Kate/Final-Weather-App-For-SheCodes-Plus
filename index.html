@@ -9,36 +9,36 @@
   <body>
     <div class="weather-app">
       <header>
-        <form action="search">
+        <form class="search-form">
           <input
-            id="enterCity"
+            id="form-enterCity"
             type="search"
             placeholder="Enter a City..."
             required
           />
-          <input id="searchButton" type="submit" value="Search" />
+          <input id="form-searchButton" type="submit" value="Search" />
         </form>
       </header>
       <main class="TodaysWeather">
-        <h1>Philadelphia</h1>
-        <div>
-          <ul>
-            <li>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Philadelphia</h1>
+            <p class="weather-app-details">
               <span class="DayAndTime"> Saturday 13:05, </span>
               <span class="Conditions"> partly cloudy </span>
-            </li>
-            <li>
+              <br />
               Humidity:
               <strong> 47% </strong>
               Wind:
               <strong> 9 mph</strong>
-            </li>
-          </ul>
-        </div>
-        <div class="TodaysTemp">
-          <span class="TodayImg">🌤️</span>
-          <span class="Temp">95</span>
-          <span class="Unit">°F</span>
+            </p>
+          </div>
+          <div class="TodaysTemp-container">
+            <br />
+            <span class="TodayImg">🌤️</span>
+            <span class="Temp">95</span>
+            <span class="Unit">°F</span>
+          </div>
         </div>
       </main>
       <footer>
