@@ -75,14 +75,16 @@ main {
   display: flex;
 }
 
-.TodayImg {
-  font-size: 65px;
-  margin-right: 6px;
+.icon {
+  width: 88px;
+  height: 88px;
   position: relative;
-  bottom: 5px;
+  top: 19px;
+  left: 10px;
 }
 .Temp {
   font-size: 88px;
+  height: 88px;
 }
 .Unit {
   font-size: 26px;
