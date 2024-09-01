@@ -56,6 +56,7 @@ main {
 }
 
 .weather-app-city {
+  color: #2d3a2e;
   font-size: 38px;
   line-height: 40px;
 }
@@ -63,7 +64,7 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(20, 16, 38, 0.4);
 }
 
 .weather-app-details strong {
@@ -83,10 +84,12 @@ main {
   left: 10px;
 }
 .Temp {
+  color: #2d3a2e;
   font-size: 88px;
   height: 88px;
 }
 .Unit {
+  color: #2d3a2e;
   font-size: 26px;
   position: relative;
   bottom: 40px;
@@ -101,13 +104,13 @@ main {
 .weather-forecast-date {
   text-align: center;
   color: rgba(13, 23, 18, 0.513);
-  font-size: 16px;
+  font-size: 19px;
   line-height: 20px;
 }
 
 .weather-forecast-icon {
-  width: 88px;
-  height: 88px;
+  width: 84px;
+  height: 84px;
   display: block;
   margin: 0 auto;
 }
@@ -115,13 +118,13 @@ main {
 .weather-forecast-temperatures {
   text-align: center;
   color: #5c715e;
-  margin-top: 10px;
+  margin-top: 2px;
   display: flex;
   justify-content: center;
 }
 
 .weather-forecast-temp {
-  padding: 0 8px;
+  padding: 0 6px;
 }
 
 footer {
