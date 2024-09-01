@@ -92,6 +92,36 @@ main {
   bottom: 40px;
 }
 
+.weather-forcast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forcast-date {
+  text-align: center;
+  color: rgba(13, 23, 18, 0.513);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-forcast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forcast-temperatures {
+  text-align: center;
+  color: #5c715e;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forcast-temp {
+  padding: 0 8px;
+}
+
 footer {
   border-top: 1px solid #a0a1a0;
   padding: 25px 0 0 0;
